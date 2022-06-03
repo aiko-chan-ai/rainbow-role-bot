@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client, Collection } = require('discord.js');
-const index = new Array(18).fill('test');
+const index = new Array(18).fill('test'); // 18 bot
 const config = require('./config.js');
 const roleColorList = config.color;
 let i = 1;
